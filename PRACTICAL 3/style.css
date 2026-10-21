@@ -1,0 +1,271 @@
+/* Shared beginner-friendly styles for the StudentHub pages. */
+:root {
+    --navy: #24344d;
+    --blue: #356c9a;
+    --blue-dark: #28577f;
+    --blue-light: #e8f1f8;
+    --page: #f5f8fb;
+    --white: #ffffff;
+    --text: #293547;
+    --muted: #64748b;
+    --border: #dbe4ec;
+    --green: #e4f2e9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 24px;
+    background: var(--page);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--navy);
+    color: var(--white);
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+    text-align: center;
+}
+
+h2 {
+    margin-top: 28px;
+    color: var(--navy);
+}
+
+h3 {
+    color: var(--blue-dark);
+}
+
+a {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: var(--blue-light);
+    color: var(--blue-dark);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    justify-content: center;
+}
+
+.page-nav a {
+    margin: 0;
+}
+
+.dashboard-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.dashboard-links a {
+    margin: 0;
+    padding: 16px;
+    border: 1px solid var(--border);
+    background: var(--white);
+    box-shadow: 0 3px 12px rgba(36, 52, 77, 0.05);
+}
+
+.dashboard-links a:hover {
+    border-color: var(--blue);
+    background: var(--blue-light);
+    color: var(--blue-dark);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+.info-card {
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.info-card h3 {
+    margin-top: 0;
+}
+
+.info-card p:last-child {
+    margin-bottom: 0;
+}
+
+hr {
+    height: 1px;
+    margin: 22px 0;
+    border: 0;
+    background: var(--border);
+}
+
+p,
+ul,
+form,
+table {
+    margin-top: 16px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+form {
+    width: min(100%, 520px);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 22px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--white);
+    box-shadow: 0 5px 18px rgba(36, 52, 77, 0.07);
+    text-align: left;
+}
+
+input,
+select {
+    max-width: 100%;
+    min-height: 40px;
+    padding: 8px 10px;
+    border: 1px solid #b8c6d4;
+    border-radius: 5px;
+    background: var(--white);
+    color: var(--text);
+    font: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    margin: 6px 5px 0 0;
+    padding: 8px 15px;
+    border: 0;
+    background: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background: var(--navy);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+}
+
+th,
+td {
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+th {
+    background: var(--navy);
+    color: var(--white);
+}
+
+tr:nth-child(even) td {
+    background: var(--blue-light);
+}
+
+center {
+    display: block;
+}
+
+center table {
+    text-align: left;
+}
+
+body > p,
+body > ul {
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--white);
+}
+
+body > a {
+    margin-top: 12px;
+}
+
+:focus-visible {
+    outline: 3px solid #e6a94c;
+    outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 14px;
+    }
+
+    h1 {
+        padding: 16px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    form {
+        padding: 16px;
+    }
+}
+
+@media (min-width: 600px) {
+    .dashboard-links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 900px) {
+    .dashboard-links {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
