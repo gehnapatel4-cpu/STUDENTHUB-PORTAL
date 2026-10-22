@@ -1,0 +1,4 @@
+[
+    {"name": "Gehna Patel", "email": "gehna@charusat.edu.in", "phone": "9876543210", "branch": "CE", "semester": "3", "created_at": "2026-10-21 10:00:00"},
+    {"name": "Aarav Sharma", "email": "aarav@charusat.edu.in", "phone": "9123456789", "branch": "IT", "semester": "3", "created_at": "2026-10-21 11:30:00"}
+]
