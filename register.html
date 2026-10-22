@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration - Practical 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="top-bar">
+            <h1>Student Registration</h1>
+            <div class="header-buttons">
+                <button class="btn-theme" id="themeBtn">Dark Mode</button>
+                <button class="btn-menu" id="menuBtn">&#9776;</button>
+            </div>
+        </div>
+
+        <nav class="page-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="faq.html">FAQ</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="login.html">Login</a>
+            <a href="register.html" class="active">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="card">
+        <h2>Student Registration Form</h2>
+        <p>Complete the form below. Client-side JavaScript validation checks all fields before submission.</p>
+
+        <form id="registrationForm" novalidate>
+            <div>
+                <label for="fullName"><strong>Full Name:</strong></label>
+                <input type="text" id="fullName" placeholder="Enter your full name">
+                <span id="nameError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div>
+                <label for="email"><strong>Email Address:</strong></label>
+                <input type="email" id="email" placeholder="student@domain.com">
+                <span id="emailError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div>
+                <label for="mobile"><strong>Mobile Number:</strong></label>
+                <input type="tel" id="mobile" placeholder="10-digit mobile number">
+                <span id="mobileError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div>
+                <label for="password"><strong>Password:</strong></label>
+                <input type="password" id="password" placeholder="Minimum 8 characters">
+                <div style="height: 6px; width: 100%; background: #e2e8f0; border-radius: 3px; margin-top: 4px; overflow: hidden;">
+                    <div id="strengthBar" style="height: 100%; width: 0%; transition: width 0.3s ease;"></div>
+                </div>
+                <span id="strengthText" style="font-size: 0.82rem; font-weight: bold; display: block; margin-top: 4px;"></span>
+                <span id="passwordError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div>
+                <label for="confirmPassword"><strong>Confirm Password:</strong></label>
+                <input type="password" id="confirmPassword" placeholder="Re-enter your password">
+                <span id="confirmPasswordError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div>
+                <label for="course"><strong>Course / Degree:</strong></label>
+                <select id="course">
+                    <option value="">-- Select Course --</option>
+                    <option value="B.Tech Computer Engineering">B.Tech Computer Engineering</option>
+                    <option value="B.Tech Information Technology">B.Tech Information Technology</option>
+                    <option value="B.Tech Electronics & Communication">B.Tech Electronics & Communication</option>
+                    <option value="B.Tech Mechanical Engineering">B.Tech Mechanical Engineering</option>
+                    <option value="B.Tech Civil Engineering">B.Tech Civil Engineering</option>
+                </select>
+                <span id="courseError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-bottom: 10px;"></span>
+            </div>
+
+            <div style="margin-bottom: 14px;">
+                <label><strong>Academic Year:</strong></label><br>
+                <label style="margin-right: 14px;"><input type="radio" name="year" value="1st Year"> 1st Year</label>
+                <label style="margin-right: 14px;"><input type="radio" name="year" value="2nd Year"> 2nd Year</label>
+                <label style="margin-right: 14px;"><input type="radio" name="year" value="3rd Year"> 3rd Year</label>
+                <label><input type="radio" name="year" value="4th Year"> 4th Year</label>
+                <span id="yearError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-top: 4px;"></span>
+            </div>
+
+            <div style="margin-bottom: 14px;">
+                <label><strong>Gender:</strong></label><br>
+                <label style="margin-right: 14px;"><input type="radio" name="gender" value="Male"> Male</label>
+                <label style="margin-right: 14px;"><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+                <span id="genderError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-top: 4px;"></span>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+                <label>
+                    <input type="checkbox" id="terms"> I agree to the portal terms and code of conduct
+                </label>
+                <span id="termsError" style="color: #dc2626; font-size: 0.85rem; display: block; margin-top: 4px;"></span>
+            </div>
+
+            <div align="center">
+                <input type="submit" value="Register Student">
+                <input type="reset" value="Clear Form">
+            </div>
+
+            <hr>
+            <p align="center">
+                Already registered? <a href="login.html">Login Here</a>
+            </p>
+        </form>
+    </div>
+
+    <hr>
+    <p align="center">
+        <a href="index.html" class="btn">Back to Home</a>
+        <a href="dashboard.html" class="btn btn-secondary">Go to Dashboard</a>
+    </p>
+
+    <script src="script.js"></script>
+    <script src="validation.js"></script>
+</body>
+</html>
