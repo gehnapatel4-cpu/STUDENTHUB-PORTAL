@@ -1,0 +1,17 @@
+[
+    {"id": 1, "name": "Gehna Patel", "roll_no": "23CE001", "branch": "CE", "semester": 3, "cpi": 9.15},
+    {"id": 2, "name": "Aarav Sharma", "roll_no": "23IT012", "branch": "IT", "semester": 3, "cpi": 8.75},
+    {"id": 3, "name": "Diya Joshi", "roll_no": "23CE045", "branch": "CE", "semester": 3, "cpi": 9.40},
+    {"id": 4, "name": "Rohan Mehta", "roll_no": "23EC018", "branch": "EC", "semester": 3, "cpi": 7.90},
+    {"id": 5, "name": "Ananya Desai", "roll_no": "23IT030", "branch": "IT", "semester": 3, "cpi": 8.85},
+    {"id": 6, "name": "Kavya Shah", "roll_no": "23CE080", "branch": "CE", "semester": 3, "cpi": 9.05},
+    {"id": 7, "name": "Devansh Trivedi", "roll_no": "23ME014", "branch": "ME", "semester": 3, "cpi": 7.60},
+    {"id": 8, "name": "Ishita Bhatt", "roll_no": "23IT055", "branch": "IT", "semester": 3, "cpi": 8.95},
+    {"id": 9, "name": "Manav Parikh", "roll_no": "23CE092", "branch": "CE", "semester": 3, "cpi": 8.20},
+    {"id": 10, "name": "Pooja Varma", "roll_no": "23CL008", "branch": "CL", "semester": 3, "cpi": 8.10},
+    {"id": 11, "name": "Siddharth Rana", "roll_no": "23EC034", "branch": "EC", "semester": 3, "cpi": 8.45},
+    {"id": 12, "name": "Riya Panchal", "roll_no": "23CE105", "branch": "CE", "semester": 3, "cpi": 9.30},
+    {"id": 13, "name": "Tirth Patel", "roll_no": "23IT088", "branch": "IT", "semester": 3, "cpi": 7.80},
+    {"id": 14, "name": "Urvi Solanki", "roll_no": "23ME029", "branch": "ME", "semester": 3, "cpi": 8.05},
+    {"id": 15, "name": "Yash Dave", "roll_no": "23CE120", "branch": "CE", "semester": 3, "cpi": 8.65}
+]

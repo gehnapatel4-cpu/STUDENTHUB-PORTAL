@@ -1,0 +1,17 @@
+[
+    {"id": 1, "title": "Annual Hackathon 2026", "category": "Technical", "date": "2026-11-10", "venue": "Computer Lab 4", "seats": 120},
+    {"id": 2, "title": "Inter-College Cricket Cup", "category": "Sports", "date": "2026-11-12", "venue": "Campus Ground", "seats": 200},
+    {"id": 3, "title": "Web Development Workshop", "category": "Technical", "date": "2026-11-15", "venue": "Seminar Hall A", "seats": 80},
+    {"id": 4, "title": "Classical & Folk Dance Night", "category": "Cultural", "date": "2026-11-18", "venue": "Open Auditorium", "seats": 350},
+    {"id": 5, "title": "AI & Machine Learning Seminar", "category": "Technical", "date": "2026-11-20", "venue": "Auditorium 2", "seats": 150},
+    {"id": 6, "title": "Table Tennis Championship", "category": "Sports", "date": "2026-11-22", "venue": "Indoor Stadium", "seats": 64},
+    {"id": 7, "title": "Music Band Battle", "category": "Cultural", "date": "2026-11-25", "venue": "Amphitheatre", "seats": 400},
+    {"id": 8, "title": "Cyber Security Bootcamp", "category": "Technical", "date": "2026-11-28", "venue": "IT Lab 2", "seats": 70},
+    {"id": 9, "title": "Badminton Singles League", "category": "Sports", "date": "2026-12-01", "venue": "Sports Complex", "seats": 48},
+    {"id": 10, "title": "Drama & Street Play Fest", "category": "Cultural", "date": "2026-12-04", "venue": "Student Plaza", "seats": 250},
+    {"id": 11, "title": "Cloud Computing Hands-on", "category": "Technical", "date": "2026-12-08", "venue": "Lab 6", "seats": 60},
+    {"id": 12, "title": "Volleyball Tournament", "category": "Sports", "date": "2026-12-10", "venue": "Volleyball Court", "seats": 100},
+    {"id": 13, "title": "Photography Exhibition", "category": "Cultural", "date": "2026-12-14", "venue": "Art Gallery", "seats": 180},
+    {"id": 14, "title": "Robotics & Drone Expo", "category": "Technical", "date": "2026-12-18", "venue": "Workshop Hall", "seats": 130},
+    {"id": 15, "title": "Campus Chess Challenge", "category": "Sports", "date": "2026-12-22", "venue": "Library Hall", "seats": 50}
+]
