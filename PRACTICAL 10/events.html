@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="top-bar">
+            <h1>Campus Events</h1>
+            <div class="header-buttons">
+                <button class="btn-theme" id="themeBtn">Dark Mode</button>
+                <button class="btn-menu" id="menuBtn">&#9776;</button>
+            </div>
+        </div>
+
+        <nav class="page-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html" class="active">Events</a>
+            <a href="faq.html">FAQ</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h2>Featured Event Highlights</h2>
+    <div class="slider-container">
+        <div class="slide active">
+            <span class="slide-badge">Event 1 of 4</span>
+            <h3>Annual Tech Fest & Hackathon</h3>
+            <p>24-hour hackathon, robotics competition, and web app design contest with industry judges.</p>
+            <p><strong>Date:</strong> 15th November | <strong>Venue:</strong> College Auditorium</p>
+        </div>
+        <div class="slide">
+            <span class="slide-badge">Event 2 of 4</span>
+            <h3>Inter-Branch Sports Tournament</h3>
+            <p>Annual inter-department tournaments for Cricket, Football, Volleyball, and Badminton.</p>
+            <p><strong>Date:</strong> 22nd November | <strong>Venue:</strong> University Sports Ground</p>
+        </div>
+        <div class="slide">
+            <span class="slide-badge">Event 3 of 4</span>
+            <h3>Cultural Night - Spandan</h3>
+            <p>Live music, classical and western dance performances, drama, and stage plays.</p>
+            <p><strong>Date:</strong> 25th November | <strong>Venue:</strong> Open Air Amphitheatre</p>
+        </div>
+        <div class="slide">
+            <span class="slide-badge">Event 4 of 4</span>
+            <h3>Placement & Career Workshop</h3>
+            <p>Expert session on software engineering career roadmaps, DSA preparation, and resume building.</p>
+            <p><strong>Date:</strong> 30th November | <strong>Venue:</strong> Seminar Hall A</p>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn" id="prevBtn">&larr; Previous</button>
+            <button class="slider-btn" id="nextBtn">Next &rarr;</button>
+        </div>
+    </div>
+
+    <h2>Upcoming Activities List</h2>
+    <div class="info-grid">
+        <div class="card">
+            <h3>Web Development Workshop</h3>
+            <p>Hands-on session covering JavaScript DOM manipulation and modern CSS layouts.</p>
+            <p><strong>Date:</strong> This Saturday</p>
+        </div>
+        <div class="card">
+            <h3>Student Club Meetup</h3>
+            <p>Meet club coordinators and join technical or cultural student chapters.</p>
+            <p><strong>Date:</strong> Next Tuesday</p>
+        </div>
+        <div class="card">
+            <h3>Study & Lab Group</h3>
+            <p>Collaborative study session for mid-sem lab examination preparation.</p>
+            <p><strong>Date:</strong> Every Wednesday</p>
+        </div>
+    </div>
+
+    <hr>
+    <p align="center">
+        <a href="index.html" class="btn">Back to Home</a>
+        <a href="dashboard.html" class="btn btn-secondary">Go to Dashboard</a>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
