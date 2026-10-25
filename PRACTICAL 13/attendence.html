@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="top-bar">
+            <h1>Student Attendance</h1>
+            <div class="header-buttons">
+                <button class="btn-theme" id="themeBtn">Dark Mode</button>
+                <button class="btn-menu" id="menuBtn">&#9776;</button>
+            </div>
+        </div>
+
+        <nav class="page-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="attendance.html" class="active">Attendance</a>
+            <a href="result.html">Results</a>
+            <a href="timetable.html">Timetable</a>
+        </nav>
+    </header>
+
+    <div class="card">
+        <h2>Student Details</h2>
+        <p><strong>Name:</strong> Gehna Patel | <strong>Roll No:</strong> 101 | <strong>Course:</strong> B.Tech CE | <strong>Semester:</strong> 3</p>
+    </div>
+
+    <h2>Attendance Record</h2>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Classes</th>
+            <th>Classes Attended</th>
+            <th>Attendance %</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>40</td>
+            <td>36</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>38</td>
+            <td>34</td>
+            <td>89%</td>
+        </tr>
+        <tr>
+            <td>Web Development Frameworks</td>
+            <td>42</td>
+            <td>40</td>
+            <td>95%</td>
+        </tr>
+        <tr>
+            <td>Data Structures & Algorithms</td>
+            <td>35</td>
+            <td>30</td>
+            <td>86%</td>
+        </tr>
+        <tr>
+            <td>Database Management Systems</td>
+            <td>36</td>
+            <td>32</td>
+            <td>89%</td>
+        </tr>
+    </table>
+
+    <div class="card">
+        <h3>Overall Attendance: 90%</h3>
+        <p><strong>Status:</strong> Eligible for University Examination</p>
+    </div>
+
+    <hr>
+    <p align="center">
+        <a href="dashboard.html" class="btn">Back to Dashboard</a>
+        <a href="result.html" class="btn btn-secondary">Check Results</a>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
